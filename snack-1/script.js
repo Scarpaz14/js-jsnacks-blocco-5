@@ -1,52 +1,52 @@
 
 const zucchina = [
     {
-        varieta: verde,
+        varieta: "verde",
         peso: 3,
         lunghezza: 10,
     },
     {
-        varieta: blu,
+        varieta: 'blu',
         peso: 6,
         lunghezza: 10,
     },
     {
-        varieta: rossa,
+        varieta: 'rossa',
         peso: 5,
         lunghezza: 10,
     },
     {
-        varieta: gialla,
+        varieta: 'gialla',
         peso: 3,
         lunghezza: 10,
     },
     {
-        varieta: arancione,
+        varieta: 'arancione',
         peso: 6,
         lunghezza: 10,
     },
     {
-        varieta: rosa,
+        varieta:' rosa',
         peso: 7,
         lunghezza: 10,
     },
     {
-        varieta: lilla,
+        varieta:' lilla',
         peso: 2,
         lunghezza: 10,
     },
     {
-        varieta: viola,
+        varieta: 'viola',
         peso: 1,
         lunghezza: 10,
     },
     {
-        varieta: azzurra,
+        varieta: 'azzurra',
         peso: 2,
         lunghezza: 10,
     },
     {
-        varieta: gialla,
+        varieta: 'gialla',
         peso: 5,
         lunghezza: 10,
     }
