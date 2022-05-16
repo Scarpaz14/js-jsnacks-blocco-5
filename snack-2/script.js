@@ -69,8 +69,8 @@ for ( let i=0; i < zucchine.length; i++){
 }
 
 
-console.log(pesoZucchinecorte);
-console.log(pesoZucchinelunghe);
+console.log(pesoZucchinecorte,zucchineCorte);
+console.log(pesoZucchinelunghe, zucchineLunghe);
 
 
 
