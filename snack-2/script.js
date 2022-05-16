@@ -1,4 +1,4 @@
-const zucchineLunghe = [
+const zucchine= [
     {
         varieta: 'verde',
         peso: 3,
@@ -24,10 +24,6 @@ const zucchineLunghe = [
         peso: 6,
         lunghezza: 7,
     },
-]
-
-    const zucchineCorte=[
-
     {
         varieta: 'rosa',
         peso: 7,
@@ -55,19 +51,21 @@ const zucchineLunghe = [
     }
 ]
 
-let pesoZucchineLunghe =0;
+let zucchineCorte = [];
+let zucchineLunghe = [];
+let pesototale =0;
 
-for ( let i=0; i <zucchineLunghe.length; i++){
-    pesoZucchineLunghe += zucchineLunghe[i].peso;
+for ( let i=0; i < zucchine.length; i++){
+    pesototale += zucchine[i].peso;
+    if (zucchine[i].lunghezza < 15){
+        zucchineCorte.push(zucchine[i]);
+    } else {
+        zucchineLunghe.push(zucchine[i]);
+    }
 }
 
-console.log(pesoZucchineLunghe + "g");
+console.log(zucchineCorte);
+console.log(zucchineLunghe);
 
 
-let pesozucchineCorte =0;
 
-for ( let i=0; i <zucchineCorte.length; i++){
-    pesozucchineCorte += zucchineCorte[i].peso;
-}
-
-console.log(pesozucchineCorte + "g");
