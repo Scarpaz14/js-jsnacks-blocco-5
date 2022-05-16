@@ -54,18 +54,23 @@ const zucchine= [
 let zucchineCorte = [];
 let zucchineLunghe = [];
 let pesototale =0;
+let pesoZucchinecorte = 0;
+let pesoZucchinelunghe = 0;
 
 for ( let i=0; i < zucchine.length; i++){
     pesototale += zucchine[i].peso;
     if (zucchine[i].lunghezza < 15){
         zucchineCorte.push(zucchine[i]);
+        pesoZucchinecorte += pesototale;
     } else {
         zucchineLunghe.push(zucchine[i]);
+        pesoZucchinelunghe += pesototale;
     }
 }
 
-console.log(zucchineCorte);
-console.log(zucchineLunghe);
+
+console.log(pesoZucchinecorte);
+console.log(pesoZucchinelunghe);
 
 
 
